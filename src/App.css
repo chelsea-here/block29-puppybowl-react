@@ -1,0 +1,46 @@
+#root {
+  margin: 0 auto;
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  color: white;
+  background-color: blue;
+  height: 3rem;
+  align-items: center;
+}
+
+.navbar > a {
+  color: white;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.bench {
+  color: red;
+}
+
+.field {
+ color: blue;
+}
+
+button {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border: 1px blue solid;
+}
+
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
