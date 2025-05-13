@@ -21,8 +21,8 @@ function App() {
       }
     } 
     fetchPlayers();
-    console.log("state is updating and fetchPlayers useEffect is triggered.")
-  }, [])
+  
+  }, [allPlayers])
  
 
 
